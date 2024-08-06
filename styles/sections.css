@@ -1,16 +1,6 @@
 #my-projects {
     margin: 7.2rem auto 14rem;
 
-    header {
-        text-align: center;
-        margin-bottom: 5.6rem;
-
-        p {
-            color: var(--red);
-            margin-bottom: .8rem;
-        }
-    }
-
     div {
         grid-template-columns: repeat(3, 33rem);
         gap: 2.4rem;
@@ -30,6 +20,33 @@
             figcaption h3 {
                 margin-block: 2.4rem .8rem;
             }
+        }
+    }
+}
+
+#my-services {
+    padding: 9rem 2rem;
+    background-color: var(--gray-100);
+
+    &>div {
+        justify-content: center;
+        gap: 2.4rem;
+    }
+
+    .card {
+        & {
+            background-color: transparent;
+            padding: 2rem;
+            border: solid 2px var(--gray-200);
+            border-radius: 1.2rem;
+        }
+
+        i {
+            font-size: 3.2rem;
+        }
+
+        h3 {
+            margin-block: 2rem .8rem;
         }
     }
 }
