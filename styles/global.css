@@ -31,8 +31,22 @@
     --title-md-asap: bold 2.4rem/120% var(--font-family-asap);
     --title-sm-asap: bold 1.6rem/120% var(--font-family-asap);
 
-    --subtitle-inconsolata: 400 2rem/120%;
+    --subtitle-inconsolata: 400 2rem/120% var(--font-family-inconsolata);
     
     --text-md-maven: 400 1.6rem/140% var(--font-family-asap);
     --text-sm-maven: 400 1.4rem/140% var(--font-family-asap);
+}
+
+body {
+    background-color: var(--gray-200);
+    color: var(--gray-500);
+    font: var(--text-sm-maven);
+}
+
+h1, h2, h3 {
+    color: var(--gray-600);
+}
+
+a {
+    text-decoration: none;
 }

@@ -9,14 +9,14 @@
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 <body>
-    <header>
+    <header class="grid">
         <div>
             <img src="/assets/images/Avatar.svg" alt="">
         </div>
 
         <div>
-            <p>Hello World! Meu nome é <span>Martina Santos</span> e sou</p>
-            <h1>Desenvolvedora Fullstack</h1>
+            <p class="subtitle">Hello World! Meu nome é <span>Martina Santos</span> e sou</p>
+            <h1 class="title-lg">Desenvolvedora Fullstack</h1>
 
             <p>
                 Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da<br>
@@ -24,37 +24,41 @@
             </p>
         </div>
 
-        <div id="tecnologities">
-            <span>
+        <div id="tecnologities" class="flex">
+            <span class="flex">
                 <img src="assets/icons/GitHub.svg" alt="">
                 <p>GitHub</p>
             </span>
 
-            <span>
-                <img src="assets/icons/HTML.svg" alt="">
+            <span class="flex">
+                <img src="assets/icons/HTML.svg" alt="" class="filter-red">
                 <p>HTML</p>
             </span>
 
-            <span>
-                <img src="assets/icons/CSS.svg" alt="">
+            <span class="flex">
+                <img src="assets/icons/CSS.svg" alt="" class="filter-blue">
                 <p>CSS</p>
             </span>
 
-            <span>
-                <img src="assets/icons/Javascript.svg" alt="">
+            <span class="flex">
+                <img src="assets/icons/Javascript.svg" alt="" class="filter-yellow">
                 <p>Javascript</p>
             </span>
 
-            <span>
-                <img src="assets/icons/React.svg" alt="">
+            <span class="flex">
+                <img src="assets/icons/React.svg" alt="" class="filter-blue">
                 <p>React</p>
             </span>
 
-            <span>
-                <img src="assets/icons/Node.js.svg" alt="">
+            <span class="flex">
+                <img src="assets/icons/Node.js.svg" alt="" class="filter-green">
                 <p>Node.js</p>
             </span>
         </div>
+
+        <a href="">
+            <i class="ph-bold ph-caret-double-down"></i>
+        </a>
     </header>
 </body>
 </html>

@@ -29,3 +29,19 @@
 .text-sm {
     font: var(--text-sm-maven);
 }
+
+.filter-red {
+    filter: brightness(0) saturate(100%) invert(54%) sepia(23%) saturate(1779%) hue-rotate(309deg) brightness(94%) contrast(88%);
+}
+
+.filter-yellow {
+    filter: brightness(0) saturate(100%) invert(79%) sepia(37%) saturate(644%) hue-rotate(349deg) brightness(96%) contrast(90%);
+}
+
+.filter-green {
+    filter: brightness(0) saturate(100%) invert(70%) sepia(6%) saturate(4755%) hue-rotate(49deg) brightness(111%) contrast(55%);
+}
+
+.filter-blue {
+    filter: brightness(0) saturate(100%) invert(49%) sepia(100%) saturate(367%) hue-rotate(164deg) brightness(89%) contrast(91%);
+}
