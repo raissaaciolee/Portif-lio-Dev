@@ -3,8 +3,6 @@
 
     div {
         grid-template-columns: repeat(3, 33rem);
-        gap: 2.4rem;
-
 
         figure {
             background-color: var(--gray-300);
@@ -30,7 +28,6 @@
 
     &>div {
         justify-content: center;
-        gap: 2.4rem;
     }
 
     .card {
@@ -47,6 +44,55 @@
 
         h3 {
             margin-block: 2rem .8rem;
+        }
+    }
+}
+
+#footer {
+    background: url("/assets/images/Background_Contacts.png") no-repeat 100%/cover;
+    height: 790px;
+    place-content: center;
+
+    header {
+       p:first-child {
+            color: var(--purple);
+       }
+    }
+
+    nav {
+        max-width: 400px;
+        margin-inline: auto;
+
+        ul li {
+            a {
+                background-color: var(--gray-300);
+                padding: 2.4rem;
+                border-radius: .8rem;
+                justify-content: space-between;
+                align-items: center;
+
+                &>i {
+                    color: var(--blue);
+                    font-size: 2rem;
+                }
+
+                div {
+                    gap: 1.4rem;
+                    align-items: center;
+
+                    i {
+                        font-size: 2.2rem;
+                    }
+                }
+            }
+
+            a:hover {
+                box-shadow: 0 0 0 1px var(--blue);
+                    
+                div i {
+                    color: var(--blue);
+                }
+            }
         }
     }
 }

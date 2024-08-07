@@ -30,6 +30,27 @@
     font: var(--text-sm-maven);
 }
 
+.header {
+    text-align: center;
+    margin-bottom: 5.6rem;
+
+    p:first-child {
+        color: var(--red);
+    }
+
+    h2 {
+        padding-block: .8rem;
+    }
+}
+
+.gap-16 {
+    gap: 1.6rem;
+}
+
+.gap-24 {
+    gap: 2.4rem;
+}
+
 .filter-red {
     filter: brightness(0) saturate(100%) invert(54%) sepia(23%) saturate(1779%) hue-rotate(309deg) brightness(94%) contrast(88%);
 }
